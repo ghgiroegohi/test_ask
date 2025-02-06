@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/Documents/Test/build/Test_1/cmake_install.cmake")
-  include("/home/user/Documents/Test/build/Test_2/cmake_install.cmake")
+  include("/home/user/Documents/Test/build/sorting_array/cmake_install.cmake")
+  include("/home/user/Documents/Test/build/geometric_shapes/cmake_install.cmake")
 
 endif()
 

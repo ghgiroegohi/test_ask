@@ -126,7 +126,7 @@ sorting: cmake_check_build_system
 
 # fast build rule for target.
 sorting/fast:
-	$(MAKE) $(MAKESILENT) -f Test_1/CMakeFiles/sorting.dir/build.make Test_1/CMakeFiles/sorting.dir/build
+	$(MAKE) $(MAKESILENT) -f sorting_array/CMakeFiles/sorting.dir/build.make sorting_array/CMakeFiles/sorting.dir/build
 .PHONY : sorting/fast
 
 #=============================================================================
@@ -139,7 +139,7 @@ geometric: cmake_check_build_system
 
 # fast build rule for target.
 geometric/fast:
-	$(MAKE) $(MAKESILENT) -f Test_2/CMakeFiles/geometric.dir/build.make Test_2/CMakeFiles/geometric.dir/build
+	$(MAKE) $(MAKESILENT) -f geometric_shapes/CMakeFiles/geometric.dir/build.make geometric_shapes/CMakeFiles/geometric.dir/build
 .PHONY : geometric/fast
 
 # Help Target

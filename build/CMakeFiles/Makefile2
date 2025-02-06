@@ -63,101 +63,101 @@ CMAKE_BINARY_DIR = /home/user/Documents/Test/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Test_1/all
-all: Test_2/all
+all: sorting_array/all
+all: geometric_shapes/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Test_1/preinstall
-preinstall: Test_2/preinstall
+preinstall: sorting_array/preinstall
+preinstall: geometric_shapes/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Test_1/clean
-clean: Test_2/clean
+clean: sorting_array/clean
+clean: geometric_shapes/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Test_1
+# Directory level rules for directory geometric_shapes
 
 # Recursive "all" directory target.
-Test_1/all: Test_1/CMakeFiles/sorting.dir/all
-.PHONY : Test_1/all
+geometric_shapes/all: geometric_shapes/CMakeFiles/geometric.dir/all
+.PHONY : geometric_shapes/all
 
 # Recursive "preinstall" directory target.
-Test_1/preinstall:
-.PHONY : Test_1/preinstall
+geometric_shapes/preinstall:
+.PHONY : geometric_shapes/preinstall
 
 # Recursive "clean" directory target.
-Test_1/clean: Test_1/CMakeFiles/sorting.dir/clean
-.PHONY : Test_1/clean
+geometric_shapes/clean: geometric_shapes/CMakeFiles/geometric.dir/clean
+.PHONY : geometric_shapes/clean
 
 #=============================================================================
-# Directory level rules for directory Test_2
+# Directory level rules for directory sorting_array
 
 # Recursive "all" directory target.
-Test_2/all: Test_2/CMakeFiles/geometric.dir/all
-.PHONY : Test_2/all
+sorting_array/all: sorting_array/CMakeFiles/sorting.dir/all
+.PHONY : sorting_array/all
 
 # Recursive "preinstall" directory target.
-Test_2/preinstall:
-.PHONY : Test_2/preinstall
+sorting_array/preinstall:
+.PHONY : sorting_array/preinstall
 
 # Recursive "clean" directory target.
-Test_2/clean: Test_2/CMakeFiles/geometric.dir/clean
-.PHONY : Test_2/clean
+sorting_array/clean: sorting_array/CMakeFiles/sorting.dir/clean
+.PHONY : sorting_array/clean
 
 #=============================================================================
-# Target rules for target Test_1/CMakeFiles/sorting.dir
+# Target rules for target sorting_array/CMakeFiles/sorting.dir
 
 # All Build rule for target.
-Test_1/CMakeFiles/sorting.dir/all:
-	$(MAKE) $(MAKESILENT) -f Test_1/CMakeFiles/sorting.dir/build.make Test_1/CMakeFiles/sorting.dir/depend
-	$(MAKE) $(MAKESILENT) -f Test_1/CMakeFiles/sorting.dir/build.make Test_1/CMakeFiles/sorting.dir/build
+sorting_array/CMakeFiles/sorting.dir/all:
+	$(MAKE) $(MAKESILENT) -f sorting_array/CMakeFiles/sorting.dir/build.make sorting_array/CMakeFiles/sorting.dir/depend
+	$(MAKE) $(MAKESILENT) -f sorting_array/CMakeFiles/sorting.dir/build.make sorting_array/CMakeFiles/sorting.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/Documents/Test/build/CMakeFiles --progress-num=3,4 "Built target sorting"
-.PHONY : Test_1/CMakeFiles/sorting.dir/all
+.PHONY : sorting_array/CMakeFiles/sorting.dir/all
 
 # Build rule for subdir invocation for target.
-Test_1/CMakeFiles/sorting.dir/rule: cmake_check_build_system
+sorting_array/CMakeFiles/sorting.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Documents/Test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test_1/CMakeFiles/sorting.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sorting_array/CMakeFiles/sorting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Documents/Test/build/CMakeFiles 0
-.PHONY : Test_1/CMakeFiles/sorting.dir/rule
+.PHONY : sorting_array/CMakeFiles/sorting.dir/rule
 
 # Convenience name for target.
-sorting: Test_1/CMakeFiles/sorting.dir/rule
+sorting: sorting_array/CMakeFiles/sorting.dir/rule
 .PHONY : sorting
 
 # clean rule for target.
-Test_1/CMakeFiles/sorting.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Test_1/CMakeFiles/sorting.dir/build.make Test_1/CMakeFiles/sorting.dir/clean
-.PHONY : Test_1/CMakeFiles/sorting.dir/clean
+sorting_array/CMakeFiles/sorting.dir/clean:
+	$(MAKE) $(MAKESILENT) -f sorting_array/CMakeFiles/sorting.dir/build.make sorting_array/CMakeFiles/sorting.dir/clean
+.PHONY : sorting_array/CMakeFiles/sorting.dir/clean
 
 #=============================================================================
-# Target rules for target Test_2/CMakeFiles/geometric.dir
+# Target rules for target geometric_shapes/CMakeFiles/geometric.dir
 
 # All Build rule for target.
-Test_2/CMakeFiles/geometric.dir/all:
-	$(MAKE) $(MAKESILENT) -f Test_2/CMakeFiles/geometric.dir/build.make Test_2/CMakeFiles/geometric.dir/depend
-	$(MAKE) $(MAKESILENT) -f Test_2/CMakeFiles/geometric.dir/build.make Test_2/CMakeFiles/geometric.dir/build
+geometric_shapes/CMakeFiles/geometric.dir/all:
+	$(MAKE) $(MAKESILENT) -f geometric_shapes/CMakeFiles/geometric.dir/build.make geometric_shapes/CMakeFiles/geometric.dir/depend
+	$(MAKE) $(MAKESILENT) -f geometric_shapes/CMakeFiles/geometric.dir/build.make geometric_shapes/CMakeFiles/geometric.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/user/Documents/Test/build/CMakeFiles --progress-num=1,2 "Built target geometric"
-.PHONY : Test_2/CMakeFiles/geometric.dir/all
+.PHONY : geometric_shapes/CMakeFiles/geometric.dir/all
 
 # Build rule for subdir invocation for target.
-Test_2/CMakeFiles/geometric.dir/rule: cmake_check_build_system
+geometric_shapes/CMakeFiles/geometric.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Documents/Test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test_2/CMakeFiles/geometric.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 geometric_shapes/CMakeFiles/geometric.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Documents/Test/build/CMakeFiles 0
-.PHONY : Test_2/CMakeFiles/geometric.dir/rule
+.PHONY : geometric_shapes/CMakeFiles/geometric.dir/rule
 
 # Convenience name for target.
-geometric: Test_2/CMakeFiles/geometric.dir/rule
+geometric: geometric_shapes/CMakeFiles/geometric.dir/rule
 .PHONY : geometric
 
 # clean rule for target.
-Test_2/CMakeFiles/geometric.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Test_2/CMakeFiles/geometric.dir/build.make Test_2/CMakeFiles/geometric.dir/clean
-.PHONY : Test_2/CMakeFiles/geometric.dir/clean
+geometric_shapes/CMakeFiles/geometric.dir/clean:
+	$(MAKE) $(MAKESILENT) -f geometric_shapes/CMakeFiles/geometric.dir/build.make geometric_shapes/CMakeFiles/geometric.dir/clean
+.PHONY : geometric_shapes/CMakeFiles/geometric.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

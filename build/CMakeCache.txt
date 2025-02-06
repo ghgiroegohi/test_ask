@@ -222,13 +222,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Geometric_BINARY_DIR:STATIC=/home/user/Documents/Test/build/Test_2
+Geometric_BINARY_DIR:STATIC=/home/user/Documents/Test/build/geometric_shapes
 
 //Value Computed by CMake
 Geometric_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Geometric_SOURCE_DIR:STATIC=/home/user/Documents/Test/Test_2
+Geometric_SOURCE_DIR:STATIC=/home/user/Documents/Test/geometric_shapes
 
 //Value Computed by CMake
 MyProject_BINARY_DIR:STATIC=/home/user/Documents/Test/build
@@ -240,13 +240,13 @@ MyProject_IS_TOP_LEVEL:STATIC=ON
 MyProject_SOURCE_DIR:STATIC=/home/user/Documents/Test
 
 //Value Computed by CMake
-Sorting_BINARY_DIR:STATIC=/home/user/Documents/Test/build/Test_1
+Sorting_BINARY_DIR:STATIC=/home/user/Documents/Test/build/sorting_array
 
 //Value Computed by CMake
 Sorting_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Sorting_SOURCE_DIR:STATIC=/home/user/Documents/Test/Test_1
+Sorting_SOURCE_DIR:STATIC=/home/user/Documents/Test/sorting_array
 
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0

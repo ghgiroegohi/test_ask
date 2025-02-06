@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/user/Documents/Test/CMakeLists.txt"
-  "/home/user/Documents/Test/Test_1/CMakeLists.txt"
-  "/home/user/Documents/Test/Test_2/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/user/Documents/Test/geometric_shapes/CMakeLists.txt"
+  "/home/user/Documents/Test/sorting_array/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -42,12 +42,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Test_1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Test_2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "sorting_array/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "geometric_shapes/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Test_1/CMakeFiles/sorting.dir/DependInfo.cmake"
-  "Test_2/CMakeFiles/geometric.dir/DependInfo.cmake"
+  "sorting_array/CMakeFiles/sorting.dir/DependInfo.cmake"
+  "geometric_shapes/CMakeFiles/geometric.dir/DependInfo.cmake"
   )
