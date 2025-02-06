@@ -1,8 +1,0 @@
-/home/user/Documents/Test/build/CMakeFiles/edit_cache.dir
-/home/user/Documents/Test/build/CMakeFiles/rebuild_cache.dir
-/home/user/Documents/Test/build/sorting_array/CMakeFiles/sorting.dir
-/home/user/Documents/Test/build/sorting_array/CMakeFiles/edit_cache.dir
-/home/user/Documents/Test/build/sorting_array/CMakeFiles/rebuild_cache.dir
-/home/user/Documents/Test/build/geometric_shapes/CMakeFiles/geometric.dir
-/home/user/Documents/Test/build/geometric_shapes/CMakeFiles/edit_cache.dir
-/home/user/Documents/Test/build/geometric_shapes/CMakeFiles/rebuild_cache.dir
